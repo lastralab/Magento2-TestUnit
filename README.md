@@ -14,5 +14,5 @@ __*Hints:*__
   ```
 - Turn on your favorite debug tool.
 - Add breakpoints.
-- Add "**/in_a_galaxy/far/faraway**" to your browser, after your localhost url.
+- Add **/in_a_galaxy/far/faraway** to your browser, after your localhost url.
 - Enjoy.
