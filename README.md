@@ -5,9 +5,9 @@ __*Hints:*__
 - Download repo.
 - Copy the folders **Controller** and **etc** to your *app/code/Vendor/Module/* root directory. 
 - Replace code where needed.
-- run:
+- In your Magento root directory run:
   ```bash 
-  rm -rf generated/* var/* pub/static/*;
+  sudo rm -rf generated/* var/* pub/static/*;
   magento s:up;
   magento s:d:c;
   magento s:s:d -f;
