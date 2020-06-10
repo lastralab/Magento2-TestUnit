@@ -48,7 +48,6 @@ xdebug.remote_port = 9000
 xdebug.remote_connect_back = 1
 ```
 - Set configurations in PhpStorm
-| Configuration | Example |
 | ------------- |:-------------:|
 | Language | <img width="600" alt="Screen Shot 2020-06-10 at 12 39 03 PM" src="https://user-images.githubusercontent.com/22894897/84305823-e272e700-ab17-11ea-9534-30df546c6d6a.png"> |
 | Server | <img width="600" alt="Screen Shot 2020-06-10 at 12 41 53 PM" src="https://user-images.githubusercontent.com/22894897/84306234-717fff00-ab18-11ea-8c23-b1a21d8204de.png"> |
