@@ -10,7 +10,8 @@ namespace Lastra\Debug\Controller\Far;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\State;
-use Vendor\Module\Setup\Patch\Data\_ as Test; //replace Vendor/Module
+//set path to your patch or any application you want to test
+use Vendor\Module\Setup\Patch\Data\_ as Test; 
 
 class FarAway extends \Magento\Framework\App\Action\Action
 {
@@ -41,6 +42,7 @@ class FarAway extends \Magento\Framework\App\Action\Action
     /**
      * Execute action based on request and return result
      * This example tests a Data Patch, feel free to replace the apply() function for your own.
+     * Remember: Only 'public' functions can run from here.
      */
     public function execute()
     {
