@@ -1,6 +1,6 @@
 # Magento2-TestUnit
 
-__*Hints:*__
+__*Implementation:*__
 
 - Download/clone repo.
 - Copy the folder Lastra/ to your *app/code/* directory in Magento.
