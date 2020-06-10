@@ -47,5 +47,5 @@ xdebug.remote_mode = req
 xdebug.remote_port = 9000
 xdebug.remote_connect_back = 1
 ```
-Add configuration to PhpStorm
-Add Xdebug Helper extension to browser
+- Add configuration to PhpStorm
+- Add Xdebug Helper extension to browser
