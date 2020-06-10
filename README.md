@@ -49,10 +49,10 @@ xdebug.remote_connect_back = 1
 ```
 - Set configurations in PhpStorm
   - Language
-  <img width="467" alt="Screen Shot 2020-06-10 at 12 39 03 PM" src="https://user-images.githubusercontent.com/22894897/84305823-e272e700-ab17-11ea-9534-30df546c6d6a.png">
+    - <img width="467" alt="Screen Shot 2020-06-10 at 12 39 03 PM" src="https://user-images.githubusercontent.com/22894897/84305823-e272e700-ab17-11ea-9534-30df546c6d6a.png">
   - Server
-  <img width="600" alt="Screen Shot 2020-06-10 at 12 41 53 PM" src="https://user-images.githubusercontent.com/22894897/84306234-717fff00-ab18-11ea-8c23-b1a21d8204de.png">
+    - <img width="600" alt="Screen Shot 2020-06-10 at 12 41 53 PM" src="https://user-images.githubusercontent.com/22894897/84306234-717fff00-ab18-11ea-8c23-b1a21d8204de.png">
   - Debug Configuration
-  <img width="600" alt="Screen Shot 2020-06-10 at 12 42 04 PM" src="https://user-images.githubusercontent.com/22894897/84305835-e69f0480-ab17-11ea-9184-fcf782e10138.png">
+    - <img width="600" alt="Screen Shot 2020-06-10 at 12 42 04 PM" src="https://user-images.githubusercontent.com/22894897/84305835-e69f0480-ab17-11ea-9184-fcf782e10138.png">
 - Add Xdebug Helper extension to browser
-  <img width="300" alt="Screen Shot 2020-06-10 at 12 44 34 PM" src="https://user-images.githubusercontent.com/22894897/84306051-35e53500-ab18-11ea-82a3-ca4f40e9973a.png">
+  - <img width="300" alt="Screen Shot 2020-06-10 at 12 44 34 PM" src="https://user-images.githubusercontent.com/22894897/84306051-35e53500-ab18-11ea-82a3-ca4f40e9973a.png">
