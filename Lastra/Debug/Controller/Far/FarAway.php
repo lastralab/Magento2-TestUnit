@@ -1,16 +1,16 @@
-<?php 
+<?php
 /**
 * Created by PhpStorm
-* user: Niam Moltta
+* user: Tania
 * date: After the Apocalypse
 * time: 00:00:00 hrs
 */
 
-namespace _\_\Controller\Far; // replace __ with your Vendor/Module
+namespace Lastra\Debug\Controller\Far;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\State;
-use _\_\Setup\Patch\Data\_ as Test; 
+use Vendor\Module\Setup\Patch\Data\_ as Test; //replace Vendor/Module
 
 class FarAway extends \Magento\Framework\App\Action\Action
 {
@@ -44,7 +44,7 @@ class FarAway extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        echo '<div style="text-align:center"><br /><br /><h2>This planet is not what I expected, R2...</h2><h2>Too many weird bugs.</h2><img alt="starwars" src="http://i.imgur.com/KOCVarT.gif"/></div>';
+        echo '<div style="text-align:center"><br /><br /><h2>This planet is not what I expected, R2...</h2><h2>Too many bugs.</h2><img alt="starwars" src="http://i.imgur.com/KOCVarT.gif"/></div>';
         $this->test->apply();
     }
 }

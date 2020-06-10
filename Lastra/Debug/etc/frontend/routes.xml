@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!-- 
+<!--
 /**
 * Created by PhpStorm
-* user: Niam Moltta
+* user: Tania
 * date: After the Apocalypse
 * time: 00:00:00 hrs
 */
@@ -10,8 +10,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
         <route id="test" frontName="in_a_galaxy">
-            <module name="Vendor_Module"/>
+            <module name="Lastra_Debug"/>
         </route>
     </router>
 </config>
-
