@@ -10,9 +10,15 @@ namespace Lastra\Debug\Controller\Far;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\State;
-//set path to your patch or any application you want to test
-use Vendor\Module\Setup\Patch\Data\_ as Test; 
 
+/**
+ * Enter navigation mode and destination course:
+ */
+use Vendor\Module\Path\to\Test\File as Test;
+
+/**
+ * In a galaxy, far far away...
+ */
 class FarAway extends \Magento\Framework\App\Action\Action
 {
     /**
@@ -40,13 +46,18 @@ class FarAway extends \Magento\Framework\App\Action\Action
     }
 
     /**
-     * Execute action based on request and return result
-     * This example tests a Data Patch, feel free to replace the apply() function for your own.
-     * Remember: Only 'public' functions can run from here.
+     * The Empire has called a public method to wipe out the
+     * Resistance. Meanwhile, explorer ships have been deployed
+     * to the Death Star and remain incommunicated...
      */
     public function execute()
     {
         echo '<div style="text-align:center"><br /><br /><h2>This planet is not what I expected, R2...</h2><h2>Too many bugs.</h2><img alt="starwars" src="http://i.imgur.com/KOCVarT.gif"/></div>';
-        $this->test->apply();
+
+        /**
+         * The Empire has detected two droids in
+         * http://localhost/in_a_galaxy/far/faraway
+         */
+        $this->test->publicmethodtotest();
     }
 }
