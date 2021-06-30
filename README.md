@@ -4,19 +4,16 @@
 
 - Download/clone repo.
 - Copy the folder Lastra/ to your *app/code/* directory in Magento.
-- Replace code in [Controller](https://github.com/lastralab/Magento2-TestUnit/blob/master/Lastra/Debug/Controller/Far/FarAway.php) according to your needs.
+- Replace code in View Model according to your needs.
 - In your Magento root directory run:
   ```bash
-  sudo rm -rf generated/* var/* pub/static/*;
-  magento s:up;
-  magento s:d:c;
-  magento s:s:d -f;
-  magento c:c;
+  sudo rm -rf generated/*;
+  magento mod:en Lastra_Testing
+  magento c:c
   ```
 - Turn on your debug tool.
 - Add breakpoints.
 - Add **/in_a_galaxy/far/faraway** to your browser, after your localhost url.
-- Enjoy.
 
 
 
@@ -52,8 +49,8 @@ xdebug.remote_connect_back = 1
         - <img width="600" alt="Screen Shot 2020-06-10 at 12 39 03 PM" src="https://user-images.githubusercontent.com/22894897/84305823-e272e700-ab17-11ea-9534-30df546c6d6a.png">
     - Server
         - <img width="600" alt="Screen Shot 2020-06-10 at 12 41 53 PM" src="https://user-images.githubusercontent.com/22894897/84306234-717fff00-ab18-11ea-8c23-b1a21d8204de.png">
-    - Debug Config 
+    - Debug Config
         - <img width="600" alt="Screen Shot 2020-06-10 at 12 42 04 PM" src="https://user-images.githubusercontent.com/22894897/84305835-e69f0480-ab17-11ea-9184-fcf782e10138.png">
- 
+
 - Add Xdebug Helper extension to browser
   - <img width="300" alt="Screen Shot 2020-06-10 at 12 44 34 PM" src="https://user-images.githubusercontent.com/22894897/84306051-35e53500-ab18-11ea-82a3-ca4f40e9973a.png">
